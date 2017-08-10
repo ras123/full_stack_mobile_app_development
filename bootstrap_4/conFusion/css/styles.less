@@ -6,9 +6,9 @@
 // Height variables
 @carousel-item-height: 300px;
 
-.zero-margin(@pad-up-dn: 0px, @pad-left-right: 0px) {
+.zero-margin(@pad-up-down: 0px, @pad-left-right: 0px) {
 	margin: 0px auto;
-	padding: @pad-up-dn @pad-left-right;
+	padding: @pad-up-down @pad-left-right;
 }
 
 .row-header {
@@ -16,7 +16,7 @@
 }
 
 .row-content {
-    .zero-margin(50px,0px);
+    .zero-margin(50px, 0px);
     border-bottom: 1px ridge;
     min-height: 400px;
 }
@@ -25,8 +25,9 @@
     background-color: @background-pale;
     .zero-margin(20px, 0px);
 }
+
 .jumbotron {
-    .zero-margin(70px,30px);
+    .zero-margin(70px, 30px);
     background: @background-light;
     color:floralwhite;
 }
@@ -45,6 +46,7 @@ body {
 .navbar-inverse {
      background-color: @background-dark;
 }
+
 .tab-content {
     border-left: 1px solid @lt-gray;
     border-right: 1px solid @lt-gray;
