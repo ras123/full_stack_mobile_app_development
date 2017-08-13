@@ -17,7 +17,15 @@ $(document).ready(function() {
         $("#reserveModal").modal("toggle")
     });
 
+    $(".close-reserve-modal").click(function() {
+        $("#reserveModal").modal("hide")
+    })
+
     $("#login").click(function() {
         $("#loginModal").modal("toggle")
     });
+
+    $(".close-login-modal").click(function() {
+        $("#loginModal").modal("hide")
+    })
 });
