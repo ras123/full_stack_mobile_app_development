@@ -55,10 +55,11 @@ body {
 }
 
 .carousel {
-    background:$background-dark;
+    background: $background-dark;
 
     .carousel-item {
         height: $carousel-item-height;
+
         img {
             position: absolute;
             top: 0;
@@ -72,4 +73,23 @@ body {
     right: 0px;
     position: absolute;
     bottom: 0px;
+}
+
+.modal-content {
+    .modal-header {
+        background-color: $background-dark;
+        color: floralwhite;
+
+        .close {
+            color: floralwhite;
+        }
+    }
+
+    .modal-body {
+        background-color: $background-pale;
+    }
+
+    .modal-footer {
+        background-color: $background-light;
+    }
 }
